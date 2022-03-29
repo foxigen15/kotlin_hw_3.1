@@ -20,15 +20,9 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
-      run: ./gradlew build --info
-jobs:
-  # This workflow contains a single job called "greet"
-  greet:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-    # Runs a single command using the runners shell
-    - name: Send greeting
-      run: echo "Hello ${{ github.event.inputs.name }}"
+      run: ./gradlew test jacocoTestReport
+    - name: Upload Build Artifact
+      uses: actions/upload-artifact@v2
+      with:
+          name: jacoco_reports
+          path: build/reports/jacoco/test/html
