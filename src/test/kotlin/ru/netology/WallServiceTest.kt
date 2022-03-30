@@ -32,7 +32,11 @@ class WallServiceTest {
                 reposts = null,
                 views = null,
                 postType = "1",
+                postSource = null,
+                attachments = null,
+                geo = null,
                 signerId = 1,
+                copyHistory = null,
                 postponedId = 1,
                 indexPosts = 0
             )
@@ -67,7 +71,11 @@ class WallServiceTest {
                 reposts = null,
                 views = null,
                 postType = "1",
+                postSource = null,
+                attachments = null,
+                geo = null,
                 signerId = 1,
+                copyHistory = null,
                 postponedId = 1,
                 indexPosts = 0
             )
@@ -90,7 +98,11 @@ class WallServiceTest {
                 reposts = null,
                 views = null,
                 postType = "1",
+                postSource = null,
+                attachments = null,
+                geo = null,
                 signerId = 1,
+                copyHistory = null,
                 postponedId = 1,
                 indexPosts = 0
             )
@@ -113,7 +125,11 @@ class WallServiceTest {
                 reposts = null,
                 views = null,
                 postType = "1",
+                postSource = null,
+                attachments = null,
+                geo = null,
                 signerId = 1,
+                copyHistory = null,
                 postponedId = 1,
                 indexPosts = 0
             )
@@ -146,7 +162,11 @@ class WallServiceTest {
                 reposts = null,
                 views = null,
                 postType = "1",
+                postSource = null,
+                attachments = null,
+                geo = null,
                 signerId = 1,
+                copyHistory = null,
                 postponedId = 1,
                 indexPosts = 0
             )
@@ -169,7 +189,11 @@ class WallServiceTest {
                 reposts = null,
                 views = null,
                 postType = "1",
+                postSource = null,
+                attachments = null,
+                geo = null,
                 signerId = 1,
+                copyHistory = null,
                 postponedId = 1,
                 indexPosts = 0
             )
@@ -192,7 +216,11 @@ class WallServiceTest {
                 reposts = null,
                 views = null,
                 postType = "1",
+                postSource = null,
+                attachments = null,
+                geo = null,
                 signerId = 1,
+                copyHistory = null,
                 postponedId = 1,
                 indexPosts = 0
             )
