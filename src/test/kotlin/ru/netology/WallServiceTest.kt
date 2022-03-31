@@ -7,6 +7,9 @@ import org.junit.Before
 
 class WallServiceTest {
 
+
+
+
     @Before
     fun restoreForAdd() {
         WallService.removeAll()
