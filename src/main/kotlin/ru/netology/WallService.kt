@@ -2,6 +2,8 @@ package ru.netology
 
 object WallService {
     private var posts = emptyArray<Post>()
+    private var comments = emptyArray<Comment>()
+
 
     fun add(post: Post): Post {
         posts += if (posts.isEmpty()) post.copy(indexPosts = 1) else post.copy(indexPosts = posts.last().indexPosts + 1)
