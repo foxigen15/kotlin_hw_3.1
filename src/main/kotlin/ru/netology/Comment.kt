@@ -1,6 +1,6 @@
 package ru.netology
 
-data class Comment {
+data class Comment (
     val id: Int,
     val fromId: Int,
     val postId: Int,
@@ -11,4 +11,4 @@ data class Comment {
     val attachments: Attachments? = null,
     val parentsStack: Array<Int>? = null,
     val thread: Thread? = null
-}
+)
